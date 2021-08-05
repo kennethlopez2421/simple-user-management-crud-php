@@ -1,0 +1,134 @@
+ * {
+     margin: 0px;
+ }
+
+body{
+     font-family: "Times New Roman", Times, serif;
+     font-size: 14px;
+ }
+
+ .name{
+    text-align: center;
+    margin: 60px;
+
+}
+
+ .login{
+     width: 400px;
+     margin: 100px auto;
+     background-color: rgba(175, 186, 192, 0.82);
+     padding: 40px;
+     border-radius: 5px;
+
+ }
+
+
+ p {
+     margin-bottom: 15px;
+ }
+
+ p.error{
+     background: red;
+     color: white ;
+     padding: 5px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+ p.info{
+     background: forestgreen;
+     color: white;
+     padding: 5px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ input {
+     display: block;
+     width: 280px;
+     padding: 9px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
+
+ button{
+     width: 100px;
+     padding: 8px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     background-color: #4CAF50;
+     color: white;
+
+ }
+
+ button:hover{
+     background-color: #45a049;
+ }
+
+ header{
+     background: rgba(61, 194, 102, 0.63);
+     overflow: auto;
+     padding: 20px;
+ }
+ header  .appname{
+     float: left;
+     font-size: 25px;
+
+ }
+
+ header  .logged{
+     float: right;
+     font-size: 20px;
+
+ }
+div.container-2{
+    padding: 20px;
+
+
+}
+div.form-2{
+    border: 2px solid lightgray;
+    width: 450px;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(97, 138, 112, 0.55);
+
+}
+.form-group{
+    width: 300px;
+
+}
+input.form-control{
+    width: 350px;
+
+}
+.form-2 .er{
+    margin: 5px 0;
+    color: red;
+}
+.btn-default {
+    width: 150px;
+}
+
+.container-3{
+    padding: 5px;
+
+}
+ div.form-3{
+     border: 2px solid lightgray;
+     width: 500px;
+     height: 480px;
+     margin: 0px auto;
+     padding: 50px;
+     border-radius: 5px;
+     background: rgba(97, 138, 112, 0.55);
+
+ }
